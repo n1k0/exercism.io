@@ -52,7 +52,7 @@ describe("School", function() {
     school.add("Kyle", 3);
     sorted = {
       3 : ["Kyle"],
-      4 : ["Christopher", "Jennifer"],
+      4 : ["Jennifer", "Christopher"],
       6 : ["Kareem"]
     };
     expect(school.sort()).toEqual(sorted);
